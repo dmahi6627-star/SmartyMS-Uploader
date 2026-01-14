@@ -108,7 +108,7 @@ class Data:
         "🌟 Welcome Dear😘💥 {0}! 🌟\n\n"
     )
 # Define the start command handler
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("Mahi"))
 async def start(client: Client, msg: Message):
     user = await client.get_me()
     mention = user.mention
